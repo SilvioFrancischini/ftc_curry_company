@@ -176,7 +176,7 @@ st.sidebar.markdown("""---""")
 
 st.sidebar.markdown('## Selecione uma data limite')
 
-data_slider = st.sidebar.slider('Até qual valor?', value=pd.datetime(2022, 4, 13), min_value=pd.datetime(2022, 2, 11), max_value=pd.datetime(2022, 4, 6), format='DD-MM-YYYY')
+#data_slider = st.sidebar.slider('Até qual valor?', value=pd.datetime(2022, 4, 13), min_value=pd.datetime(2022, 2, 11), max_value=pd.datetime(2022, 4, 6), format='DD-MM-YYYY')
 
 st.sidebar.markdown("""---""")
 
@@ -190,8 +190,8 @@ st.sidebar.markdown("""---""")
 st.sidebar.markdown('### Powered by Silvio Francischini')
 
 #Filtro de data
-linhas_selecionadas = df1['Order_Date'] < data_slider
-df1 = df1.loc[linhas_selecionadas, :]
+#linhas_selecionadas = df1['Order_Date'] < data_slider
+#df1 = df1.loc[linhas_selecionadas, :]
 
 #Filtro de transito
 
