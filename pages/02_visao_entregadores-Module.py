@@ -15,7 +15,7 @@ from streamlit_folium import folium_static
 #Import dataset
 #-------------------------------------------------------------------------------------------------------------------------------------
 
-arquivo = r"C:\Users\silvi\repos\Projetos_FTC\aula_24_dataframe\train.csv"
+arquivo = r"train.csv"
 df = pd.read_csv(arquivo)
 df1 = df.copy()
 
