@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as nx
 import re
-#import folium
+import folium
 import plotly.express as px
 from haversine import haversine
 import plotly.graph_objects as go
